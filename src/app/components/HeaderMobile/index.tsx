@@ -6,6 +6,7 @@ import {
   Menu,
   MenuItem,
   MenuItemLink,
+  MenuTitle,
   Right,
 } from "./styles";
 import mainLogo from "../../assets/images/main-logo.png";
@@ -26,7 +27,6 @@ const HeaderMobile = ({ scrollToSection }: HeaderMobileInterface) => {
   };
 
   const handleMenuItemClick = (sectionId: string) => {
-    console.log("999 AWKWAKWA");
     setMenuOpen(false);
     scrollToSection(sectionId);
   };
@@ -49,56 +49,24 @@ const HeaderMobile = ({ scrollToSection }: HeaderMobileInterface) => {
 
       <Menu open={menuOpen}>
         <MenuItem>
-          <Image src={mainLogo} alt="close" width={250} />
+          <MenuTitle>
+            <Image src={mainLogo} alt="close" width={250} />
+          </MenuTitle>
         </MenuItem>
 
         <MenuItem>
           <MenuItemLink onClick={() => handleMenuItemClick("principal")}>
-            <p>Our Process</p>
+            <p>Services</p>
           </MenuItemLink>
         </MenuItem>
         <MenuItem>
           <MenuItemLink onClick={() => handleMenuItemClick("package")}>
-            <p>Our Packages</p>
+            <p>Projects</p>
           </MenuItemLink>
         </MenuItem>
         <MenuItem>
           <MenuItemLink href="#">
-            <p>Case Studies</p>
-          </MenuItemLink>
-        </MenuItem>
-        <MenuItem>
-          <MenuItemLink onClick={() => handleMenuItemClick("testimonial")}>
-            <p>Testimonials</p>
-          </MenuItemLink>
-        </MenuItem>
-        <MenuItem>
-          <MenuItemLink onClick={() => handleMenuItemClick("faq")}>
-            <p>FAQ's</p>
-          </MenuItemLink>
-        </MenuItem>
-
-        <MenuItem>
-          <MenuItemLink href="#">
-            <p></p>
-          </MenuItemLink>
-        </MenuItem>
-
-        <MenuItem>
-          <MenuItemLink href="#">
-            <p>Career</p>
-          </MenuItemLink>
-        </MenuItem>
-
-        <MenuItem>
-          <MenuItemLink href="#">
-            <p></p>
-          </MenuItemLink>
-        </MenuItem>
-
-        <MenuItem>
-          <MenuItemLink href="#">
-            <p>Vision</p>
+            <p>Clients</p>
           </MenuItemLink>
         </MenuItem>
 

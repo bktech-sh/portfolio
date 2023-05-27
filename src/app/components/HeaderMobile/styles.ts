@@ -12,6 +12,8 @@ export const HeaderMobileContainer = styled.div`
 
 export const Left = styled.div`
   display: flex;
+  margin-left: -15px;
+  margin-top: 9px;
 `;
 
 export const Right = styled.div`
@@ -68,4 +70,8 @@ export const CloseIcon = styled.div`
   position: absolute;
   top: 30px;
   right: 40px;
+`;
+
+export const MenuTitle = styled.div`
+  margin-left: -26px;
 `;
