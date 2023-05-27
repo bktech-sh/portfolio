@@ -21,7 +21,7 @@ export const Left = styled.div`
   gap: 20px;
 
   h3 {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 45px;
     color: ${WorkMateColors.darkGrey};
   }

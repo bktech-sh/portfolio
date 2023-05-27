@@ -18,7 +18,7 @@ const HeroSectionMobile = () => {
 
       <Image src={heroImage} width={250} alt="hero-image" />
 
-      <OutlinedButton text="JOIN NOW" size="large" />
+      <OutlinedButton text="CONTACT US" size="large" />
     </HeroMobileContainer>
   );
 };
