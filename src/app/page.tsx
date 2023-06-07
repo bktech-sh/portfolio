@@ -61,29 +61,16 @@ export default function Home() {
       </Head>
 
       {isAndroid ? (
-        <HeaderMobile scrollToSection={scrollToSection} />
+        <>
+          <HeaderMobile scrollToSection={scrollToSection} />
+          <HeroSectionMobile />
+        </>
       ) : (
-        <Header />
+        <>
+          <Header />
+          <HeroSection />
+        </>
       )}
-      {isAndroid ? <HeroSectionMobile /> : <HeroSection />}
-      {isAndroid ? (
-        <PrincipalMobile sectionRef={principalMobileRef} />
-      ) : (
-        <PrincipalSection />
-      )}
-      {isAndroid ? (
-        <PackageMobile sectionRef={packageMobileRef} />
-      ) : (
-        <PackageSection />
-      )}
-      {isAndroid ? (
-        <TestimonialMobile sectionRef={testimonialMobileRef} />
-      ) : (
-        <TestimonialSection />
-      )}
-      {isAndroid ? <FaqMobile sectionRef={faqMobileRef} /> : <FaqSection />}
-      {isAndroid ? <FooterMobile /> : <Footer />}
-      <p>asd</p>
     </AppContainer>
   );
 }
