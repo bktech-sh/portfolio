@@ -83,6 +83,7 @@ export default function Home() {
       )}
       {isAndroid ? <FaqMobile sectionRef={faqMobileRef} /> : <FaqSection />}
       {isAndroid ? <FooterMobile /> : <Footer />}
+      <p>asd</p>
     </AppContainer>
   );
 }
