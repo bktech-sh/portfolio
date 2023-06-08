@@ -6,16 +6,14 @@ import OutlinedButton from "../OutlinedButton";
 const HeroSectionMobile = () => {
   return (
     <HeroMobileContainer>
-      <h3>
-        Achieve elevation <br /> through delegation.
-      </h3>
-      <h6>We'll be the barrier between you and the chaos.</h6>
+      <h3>Empowering Innovation through Software Solutions.</h3>
+      <h6>We'll unlock innovation and thrive with our software solutions</h6>
       <p>
-        Running a business is tough. Executive assistants make things easier,
-        give you more time and clarity, and, most importantly, allow you to
-        perform as the business owner you once were.
+        Our software house is dedicated to driving digital transformation. From
+        custom applications to scalable platforms, we bring your ideas to life,
+        delivering tailored solutions that exceed expectations. Unlock your
+        potential for success with us.
       </p>
-
       <Image src={heroImage} width={250} alt="hero-image" />
 
       <OutlinedButton text="CONTACT US" size="large" />

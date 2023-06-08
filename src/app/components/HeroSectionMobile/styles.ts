@@ -15,7 +15,7 @@ export const HeroMobileContainer = styled.div`
   gap: 15px;
 
   h3 {
-    font-size: 22px;
+    font-size: 20px;
     color: ${WorkMateColors.darkGrey};
   }
 
