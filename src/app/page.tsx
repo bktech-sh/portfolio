@@ -11,6 +11,7 @@ import { useRef } from "react";
 import CompanyPartner from "./components/CompanyPartner";
 import OurServices from "./components/OurServices";
 import ContactUs from "./components/ContactUs";
+import FAQSection from "./components/FaqSection";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -65,6 +66,7 @@ export default function Home() {
           <CompanyPartner />
           <OurServices />
           <ContactUs />
+          <FAQSection />
         </>
       )}
     </AppContainer>
