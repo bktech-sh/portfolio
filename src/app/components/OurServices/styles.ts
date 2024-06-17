@@ -9,6 +9,7 @@ export const OurServicesContainer = styled.div`
 export const Title = styled.div`
   display: flex;
   flex-direction: column;
+  margin-bottom: 32px;
 
   h4 {
     font-size: 40px;
@@ -22,4 +23,11 @@ export const Title = styled.div`
     color: rgba(0, 0, 0, 0.6);
     line-height: 32px;
   }
+`;
+
+export const ServiceList = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-bottom: 32px;
 `;

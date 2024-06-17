@@ -1,4 +1,6 @@
-import { OurServicesContainer, Title } from "./styles";
+import { listServices } from "@/app/constants/listServices";
+import CardService from "../CardService";
+import { OurServicesContainer, ServiceList, Title } from "./styles";
 
 const OurServices = () => {
   return (
@@ -11,6 +13,16 @@ const OurServices = () => {
           by technology-experienced professionals.
         </p>
       </Title>
+
+      <ServiceList>
+        <CardService service={listServices[0]} />
+        <CardService service={listServices[1]} />
+      </ServiceList>
+
+      <ServiceList>
+        <CardService service={listServices[2]} />
+        <CardService service={listServices[3]} />
+      </ServiceList>
     </OurServicesContainer>
   );
 };
