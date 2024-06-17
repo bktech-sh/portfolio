@@ -5,6 +5,7 @@ export const HeroContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
   gap: 48px;
   height: 80vh;
 `;

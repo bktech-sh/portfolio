@@ -1,3 +1,5 @@
+import BackdropHero from "../BackdropHero";
+import EllipseOpacity from "../EllipseOpacity";
 import { ButtonTalk } from "../Header/styles";
 import { BigText, HeroContainer, SmallText, Wording } from "./styles";
 
@@ -23,6 +25,9 @@ const HeroSection = () => {
       </Wording>
 
       <ButtonTalk>Let's Talk</ButtonTalk>
+
+      <EllipseOpacity />
+      <BackdropHero />
     </HeroContainer>
   );
 };

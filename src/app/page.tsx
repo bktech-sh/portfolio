@@ -7,9 +7,7 @@ import useIsAndroid from "./helpers/useIsAndroid";
 import HeaderMobile from "./components/HeaderMobile";
 import HeroSection from "./components/HeroSection";
 import HeroSectionMobile from "./components/HeroSectionMobile";
-import EllipseOpacity from "./components/EllipseOpacity";
 import { useRef } from "react";
-import BackdropHero from "./components/BackdropHero";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -61,8 +59,6 @@ export default function Home() {
         <>
           <Header />
           <HeroSection />
-          <EllipseOpacity />
-          <BackdropHero />
         </>
       )}
     </AppContainer>
