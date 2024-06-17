@@ -1,3 +1,4 @@
+import { ButtonTalk } from "../Header/styles";
 import { BigText, HeroContainer, SmallText, Wording } from "./styles";
 
 const HeroSection = () => {
@@ -20,6 +21,8 @@ const HeroSection = () => {
           </p>
         </SmallText>
       </Wording>
+
+      <ButtonTalk>Let's Talk</ButtonTalk>
     </HeroContainer>
   );
 };

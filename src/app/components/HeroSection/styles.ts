@@ -2,15 +2,11 @@ import styled from "@emotion/styled";
 
 export const HeroContainer = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 15vw;
-  background: url("images/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  gap: 48px;
   height: 80vh;
-  padding: 0 50px;
 `;
 
 export const Wording = styled.div`
