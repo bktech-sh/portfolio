@@ -8,4 +8,6 @@ export const BktechColors = {
   mediumGrey: "#858585",
   blue: "#2652EE",
   mediumBlue: "#BBF2F0",
+  darkPurple: "#232038",
+  yellow: "#E0FF22",
 };
