@@ -1,5 +1,12 @@
 import FAQItem from "../FAQItem";
-import { FAQSectionContainer, Left, Right } from "./styles";
+import { ButtonTalk } from "../Header/styles";
+import {
+  EmailInput,
+  FAQSectionContainer,
+  InputEmail,
+  Left,
+  Right,
+} from "./styles";
 
 const FAQSection = () => {
   return (
@@ -12,8 +19,14 @@ const FAQSection = () => {
         />
         <FAQItem title="How Experienced BKTech Team?" answer="iop" />
       </Left>
+
       <Right>
-        <p>Kanan</p>
+        <h4>How we can help you?</h4>
+
+        <EmailInput>
+          <InputEmail placeholder="Enter Your Email" />
+          <ButtonTalk>Let's Talk</ButtonTalk>
+        </EmailInput>
       </Right>
     </FAQSectionContainer>
   );
