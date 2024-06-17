@@ -1,4 +1,5 @@
-import { CompanyPartnerContainer, Title } from "./styles";
+import CardProject from "../CardProject";
+import { CompanyPartnerContainer, ListCardProject, Title } from "./styles";
 
 const CompanyPartner = () => {
   return (
@@ -14,6 +15,12 @@ const CompanyPartner = () => {
           innovative software solutions.
         </p>
       </Title>
+
+      <ListCardProject>
+        <CardProject />
+        <CardProject />
+        <CardProject />
+      </ListCardProject>
     </CompanyPartnerContainer>
   );
 };

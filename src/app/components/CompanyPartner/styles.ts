@@ -2,6 +2,10 @@ import styled from "@emotion/styled";
 
 export const CompanyPartnerContainer = styled.div`
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
   background-color: rgba(52, 97, 255, 0.05);
   padding: 100px 150px;
 `;
@@ -23,4 +27,9 @@ export const Title = styled.div`
     color: rgba(0, 0, 0, 0.6);
     line-height: 32px;
   }
+`;
+
+export const ListCardProject = styled.div`
+  display: flex;
+  gap: 32px;
 `;
