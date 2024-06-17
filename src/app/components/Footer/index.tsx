@@ -1,36 +1,32 @@
 import Image from "next/image";
 import {
-  Contact,
+  ButtonContactUs,
+  ContactInfo,
   FooterContainer,
+  PageLink,
   SocialMedia,
-  SocialMediaIcons,
 } from "./styles";
-
-import iconFooter from "../../assets/images/icon-footer.png";
-import facebook from "../../assets/images/facebook.png";
-import instagram from "../../assets/images/instagram.png";
-import linkedin from "../../assets/images/linkedin.png";
+import bktechIcon from "@/app/assets/images/footer/bktech.png";
+import instagramIcon from "@/app/assets/images/footer/instagram.png";
+import twitterIcon from "@/app/assets/images/footer/twitter.png";
+import facebookIcon from "@/app/assets/images/footer/facebook.png";
 
 const Footer = () => {
   return (
     <FooterContainer>
-      <SocialMedia>
-        <h6>Follow us to stay updated.</h6>
+      <ContactInfo>
+        <Image src={bktechIcon} alt="bktech-icon" width={50} />
+        <p>Jakarta, Indonesia</p>
 
-        <SocialMediaIcons>
-          <Image src={facebook} alt="icon-facebook" width={45} />
-          <Image src={instagram} alt="icon-instagram" width={45} />
-          <Image src={linkedin} alt="icon-linkedin" width={45} />
-        </SocialMediaIcons>
-      </SocialMedia>
+        <SocialMedia>
+          <Image src={instagramIcon} alt="instagram" width={30} />
+          <Image src={twitterIcon} alt="twitter" width={30} />
+          <Image src={facebookIcon} alt="facebook" width={30} />
+        </SocialMedia>
 
-      <Image src={iconFooter} alt="icon-footer" width={165} />
-
-      <Contact>
-        <h6>+61 279 085 182</h6>
-        <h6>operations@virtualworkmate.com.au</h6>
-        <h6>903/50 Clarence St, Sydney NSW 2000</h6>
-      </Contact>
+        <ButtonContactUs>Contact Us</ButtonContactUs>
+      </ContactInfo>
+      <PageLink></PageLink>
     </FooterContainer>
   );
 };

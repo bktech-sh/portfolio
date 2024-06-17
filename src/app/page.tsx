@@ -12,6 +12,7 @@ import CompanyPartner from "./components/CompanyPartner";
 import OurServices from "./components/OurServices";
 import ContactUs from "./components/ContactUs";
 import FAQSection from "./components/FaqSection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -67,6 +68,7 @@ export default function Home() {
           <OurServices />
           <ContactUs />
           <FAQSection />
+          <Footer />
         </>
       )}
     </AppContainer>

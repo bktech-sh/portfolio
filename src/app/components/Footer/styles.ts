@@ -3,39 +3,35 @@ import styled from "@emotion/styled";
 
 export const FooterContainer = styled.div`
   display: flex;
-  justify-content: space-between;
-  padding: 70px 10%;
-  background-color: ${BktechColors.black};
-  color: ${BktechColors.white};
+  background: linear-gradient(
+    to bottom,
+    ${BktechColors.darkPurple},
+    ${BktechColors.darkPurple}
+  );
+  color: white;
+`;
 
-  h6 {
-    font-size: 14px;
-  }
+export const ContactInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+  gap: 20px;
 `;
 
 export const SocialMedia = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  margin-right: 30px;
-  min-width: 277px;
+  gap: 20px;
 `;
 
-export const Contact = styled.div`
+export const PageLink = styled.div`
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 10px;
-  margin-left: 30px;
 `;
 
-export const SocialMediaIcons = styled.div`
-  display: flex;
-  justify-content: space-between;
-  gap: 25px;
-
-  :hover {
-    cursor: pointer;
-  }
+export const ButtonContactUs = styled.button`
+  background-color: ${BktechColors.blue};
+  border: none;
+  height: 52px;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
 `;
