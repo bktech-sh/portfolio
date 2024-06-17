@@ -7,16 +7,7 @@ import useIsAndroid from "./helpers/useIsAndroid";
 import HeaderMobile from "./components/HeaderMobile";
 import HeroSection from "./components/HeroSection";
 import HeroSectionMobile from "./components/HeroSectionMobile";
-import PrincipalSection from "./components/PrincipalSection";
-import PrincipalMobile from "./components/PrincipalMobile";
-import PackageSection from "./components/PackageSection";
-import PackageMobile from "./components/PackageMobile";
-import TestimonialSection from "./components/TestimonialSection";
-import TestimonialMobile from "./components/TestimonialMobile";
-import FaqSection from "./components/FaqSection";
-import FaqMobile from "./components/FaqMobile";
-import Footer from "./components/Footer";
-import FooterMobile from "./components/FooterMobile";
+import EllipseOpacity from "./components/EllipseOpacity";
 import { useRef } from "react";
 
 export default function Home() {
@@ -69,6 +60,7 @@ export default function Home() {
         <>
           <Header />
           <HeroSection />
+          <EllipseOpacity />
         </>
       )}
     </AppContainer>

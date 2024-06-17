@@ -7,4 +7,5 @@ export const WorkMateColors = {
   darkGreen: "#007C50",
   mediumGrey: "#858585",
   blue: "#2652EE",
+  mediumBlue: "#BBF2F0",
 };
