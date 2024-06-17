@@ -1,4 +1,4 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 export const PrincipalContainer = styled.div`
@@ -16,7 +16,7 @@ export const Title = styled.div`
   gap: 20px;
 
   h3 {
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
     font-size: 36px;
     line-height: 45px;
   }
@@ -47,18 +47,18 @@ export const Description = styled.div`
   gap: 10px;
 
   h6 {
-    color: ${WorkMateColors.mediumGrey};
+    color: ${BktechColors.mediumGrey};
     font-weight: bold;
     font-size: 12px;
   }
 
   h4 {
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
     font-size: 24px;
   }
 
   p {
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
     font-size: 12px;
     line-height: 25px;
     max-width: 300px;
@@ -67,7 +67,7 @@ export const Description = styled.div`
 
 export const Divider = styled.div`
   height: 1px;
-  background-color: ${WorkMateColors.lightGrey};
+  background-color: ${BktechColors.lightGrey};
   width: 90%;
   border-radius: 10px;
 `;

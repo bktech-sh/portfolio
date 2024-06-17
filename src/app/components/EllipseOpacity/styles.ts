@@ -1,4 +1,4 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 export const Ellipseku = styled.div`
@@ -11,6 +11,6 @@ export const Ellipseku = styled.div`
   transform: translate(-50%, -50%);
   z-index: -1;
   opacity: 50%;
-  background-color: ${WorkMateColors.mediumBlue};
-  box-shadow: 0px 0px 60px 60px ${WorkMateColors.mediumBlue};
+  background-color: ${BktechColors.mediumBlue};
+  box-shadow: 0px 0px 60px 60px ${BktechColors.mediumBlue};
 `;

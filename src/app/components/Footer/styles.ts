@@ -1,12 +1,12 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 export const FooterContainer = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 70px 10%;
-  background-color: ${WorkMateColors.black};
-  color: ${WorkMateColors.white};
+  background-color: ${BktechColors.black};
+  color: ${BktechColors.white};
 
   h6 {
     font-size: 14px;

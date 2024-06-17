@@ -1,4 +1,4 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 export const FaqMobileContainer = styled.div`
@@ -15,12 +15,12 @@ export const Title = styled.div`
 
   h6 {
     font-size: 22px;
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
   }
 
   p {
     font-size: 12px;
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
   }
 `;
 

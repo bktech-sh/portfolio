@@ -1,4 +1,4 @@
-export const WorkMateColors = {
+export const BktechColors = {
   green: "#73DDB7",
   black: "#0A0A0A",
   darkGrey: "#454545",

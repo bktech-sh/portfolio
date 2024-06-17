@@ -1,4 +1,4 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 export const TestiMobileContainer = styled.div`
@@ -7,8 +7,8 @@ export const TestiMobileContainer = styled.div`
   padding: 40px 30px;
   align-items: center;
 
-  background-color: ${WorkMateColors.black};
-  color: ${WorkMateColors.white};
+  background-color: ${BktechColors.black};
+  color: ${BktechColors.white};
 `;
 
 export const Title = styled.div`

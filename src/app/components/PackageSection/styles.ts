@@ -1,4 +1,4 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 export const PackageContainer = styled.div`
@@ -23,12 +23,12 @@ export const Title = styled.div`
 
   h3 {
     font-size: 36px;
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
   }
 
   p {
     font-size: 12px;
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
   }
 `;
 
@@ -57,7 +57,7 @@ export const Package = styled.div`
   align-items: center;
   width: 90px;
   height: 32px;
-  background-color: ${WorkMateColors.green};
+  background-color: ${BktechColors.green};
   border-radius: 50px;
 
   p {
@@ -86,7 +86,7 @@ export const Duration = styled.p`
 `;
 
 export const GreyWord = styled.span`
-  color: ${WorkMateColors.mediumGrey};
+  color: ${BktechColors.mediumGrey};
 `;
 
 export const Pricing = styled.div`
@@ -114,7 +114,7 @@ export const Price = styled.div`
 
 export const Term = styled.p`
   font-size: 14px;
-  color: ${WorkMateColors.mediumGrey};
+  color: ${BktechColors.mediumGrey};
 `;
 
 export const ContactUs = styled.div`
@@ -126,7 +126,7 @@ export const ContactUs = styled.div`
 
   h4 {
     font-size: 18px;
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
   }
 `;
 

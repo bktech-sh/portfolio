@@ -1,4 +1,4 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 export const TestimonialContainer = styled.div`
@@ -6,8 +6,8 @@ export const TestimonialContainer = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: ${WorkMateColors.black};
-  color: ${WorkMateColors.white};
+  background-color: ${BktechColors.black};
+  color: ${BktechColors.white};
 
   padding: 80px 0;
 
@@ -60,8 +60,8 @@ export const TestiItem = styled.div`
 `;
 
 export const GreenHighlight = styled.span`
-  background-color: ${WorkMateColors.green};
-  color: ${WorkMateColors.darkGrey};
+  background-color: ${BktechColors.green};
+  color: ${BktechColors.darkGrey};
   border-radius: 5px;
 `;
 

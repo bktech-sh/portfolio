@@ -1,10 +1,10 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 export const HeaderContainer = styled.div`
   display: flex;
-  background-color: ${WorkMateColors.white};
-  color: ${WorkMateColors.black};
+  background-color: ${BktechColors.white};
+  color: ${BktechColors.black};
   height: 85px;
   padding-left: 5%;
   padding-right: 5%;
@@ -46,13 +46,13 @@ export const SelectedMenu = styled.h5`
     left: 0;
     width: 100%;
     height: 3px;
-    background-color: ${WorkMateColors.green};
+    background-color: ${BktechColors.green};
     border-radius: 2px;
   }
 `;
 
 export const ButtonTalk = styled.button`
-  background-color: ${WorkMateColors.blue};
+  background-color: ${BktechColors.blue};
   border: none;
   height: 52px;
   width: 112px;

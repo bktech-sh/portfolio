@@ -1,4 +1,4 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 interface DotInterface {
@@ -14,5 +14,5 @@ export const Dot = styled.div<DotInterface>`
   height: 8px;
   border-radius: 100%;
   background-color: ${(props) =>
-    props.isActive ? WorkMateColors.darkGreen : WorkMateColors.green};
+    props.isActive ? BktechColors.darkGreen : BktechColors.green};
 `;

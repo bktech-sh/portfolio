@@ -1,4 +1,4 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 export const HeroMobileContainer = styled.div`
@@ -7,7 +7,7 @@ export const HeroMobileContainer = styled.div`
   align-items: center;
   padding: 50px 40px;
   text-align: center;
-  background-color: ${WorkMateColors.white};
+  background-color: ${BktechColors.white};
   background: url("images/hero-background-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,11 +16,11 @@ export const HeroMobileContainer = styled.div`
 
   h3 {
     font-size: 20px;
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
   }
 
   h6 {
-    color: ${WorkMateColors.darkGreen};
+    color: ${BktechColors.darkGreen};
   }
 
   p {

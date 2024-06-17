@@ -1,4 +1,4 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 export const FaqContainer = styled.div`
@@ -15,12 +15,12 @@ export const Title = styled.div`
 
   h3 {
     font-size: 48px;
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
   }
 
   p {
     font-size: 16px;
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
   }
 `;
 
@@ -41,7 +41,7 @@ export const AccordionItem = styled.div`
 
 export const Answer = styled.div`
   display: flex;
-  color: ${WorkMateColors.mediumGrey};
+  color: ${BktechColors.mediumGrey};
 `;
 
 export const Description = styled.div`

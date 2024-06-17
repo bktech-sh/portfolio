@@ -1,9 +1,9 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 export const HeaderMobileContainer = styled.div`
   display: flex;
-  background-color: ${WorkMateColors.white};
+  background-color: ${BktechColors.white};
   height: 53px;
   align-items: center;
   padding: 0 20px;
@@ -41,7 +41,7 @@ export const Menu = styled.ul<{ open: boolean }>`
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: ${WorkMateColors.white};
+  background-color: ${BktechColors.white};
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,7 +55,7 @@ export const MenuItem = styled.li`
   margin-bottom: 20px;
 
   p {
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
     font-size: 22px;
   }
 `;

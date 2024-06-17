@@ -1,4 +1,4 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 interface ElevatedButtonProps {
@@ -18,22 +18,22 @@ export const ButtonContainer = styled.button`
     }
   }};
 
-  border: 2px solid ${WorkMateColors.green};
+  border: 2px solid ${BktechColors.green};
   background-color: transparent;
   color: ${(props) =>
-    props.clicked ? WorkMateColors.darkGrey : WorkMateColors.green};
+    props.clicked ? BktechColors.darkGrey : BktechColors.green};
   border-radius: 100px;
   padding: 8px 16px;
   font-weight: bold;
 
   background-color: ${(props) =>
-    props.clicked ? WorkMateColors.green : "transparent"};
+    props.clicked ? BktechColors.green : "transparent"};
 
   :hover {
     cursor: pointer;
     color: ${(props) =>
-      props.clicked ? WorkMateColors.darkGrey : WorkMateColors.white};
-    background-color: ${WorkMateColors.green};
+      props.clicked ? BktechColors.darkGrey : BktechColors.white};
+    background-color: ${BktechColors.green};
   }
 
   transition: background-color 0.5s ease;

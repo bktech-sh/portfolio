@@ -1,4 +1,4 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 interface StepItemProps {
@@ -22,12 +22,12 @@ export const Title = styled.div`
 
   h3 {
     font-size: 22px;
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
   }
 
   p {
     font-size: 12px;
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
     line-height: 20px;
     max-width: 300px;
   }
@@ -74,12 +74,12 @@ export const StepItem = styled.div<StepItemProps>`
 
   h6 {
     font-size: 12px;
-    color: ${WorkMateColors.mediumGrey};
+    color: ${BktechColors.mediumGrey};
   }
 
   h4 {
     font-size: 18px;
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
     margin-bottom: 10px;
   }
 

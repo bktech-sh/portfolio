@@ -1,4 +1,4 @@
-import { WorkMateColors } from "@/app/constants/colors";
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 export const PackageMobileContainer = styled.div`
@@ -17,7 +17,7 @@ export const PackageMobileContainer = styled.div`
 
 export const Title = styled.h3`
   font-size: 22px;
-  color: ${WorkMateColors.darkGrey};
+  color: ${BktechColors.darkGrey};
 `;
 
 export const PackageContainer = styled.div`
@@ -32,7 +32,7 @@ export const PackageItem = styled.div`
   margin-top: 20px;
 
   h3 {
-    color: ${WorkMateColors.darkGrey};
+    color: ${BktechColors.darkGrey};
     margin-bottom: 12px;
     font-size: 14px;
   }
@@ -41,27 +41,27 @@ export const PackageItem = styled.div`
 export const Time = styled.p`
   font-weight: 100;
   font-size: 10px;
-  color: ${WorkMateColors.mediumGrey};
+  color: ${BktechColors.mediumGrey};
   margin-bottom: 8px;
 `;
 
 export const Price = styled.p`
   font-weight: 400;
   font-size: 12px;
-  color: ${WorkMateColors.darkGrey};
+  color: ${BktechColors.darkGrey};
   margin-bottom: 12px;
 `;
 
 export const Annual = styled.span`
   font-weight: 100;
   font-size: 12px;
-  color: ${WorkMateColors.mediumGrey};
+  color: ${BktechColors.mediumGrey};
 `;
 
 export const Term = styled.p`
   font-weight: 400;
   font-size: 10px;
-  color: ${WorkMateColors.mediumGrey};
+  color: ${BktechColors.mediumGrey};
   max-width: 250px;
   text-align: center;
   margin-bottom: 20px;
@@ -71,5 +71,5 @@ export const Divider = styled.div`
   height: 1px;
   width: 110%;
   border-radius: 100%;
-  background-color: ${WorkMateColors.lightGrey};
+  background-color: ${BktechColors.lightGrey};
 `;
