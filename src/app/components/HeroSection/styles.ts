@@ -1,4 +1,3 @@
-import { WorkMateColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 export const HeroContainer = styled.div`
@@ -10,33 +9,28 @@ export const HeroContainer = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 80vh;
   padding: 0 50px;
 `;
 
-export const Left = styled.div`
+export const Wording = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 491px;
-  gap: 20px;
-
-  h3 {
-    font-size: 30px;
-    line-height: 45px;
-    color: ${WorkMateColors.darkGrey};
-  }
-
-  h6 {
-    font-size: 12px;
-    color: ${WorkMateColors.darkGreen};
-  }
-
-  p {
-    line-height: 25px;
-    font-size: 12px;
-  }
+  gap: 16px;
 `;
 
-export const Right = styled.div`
+export const BigText = styled.div`
   display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  align-items: center;
+  font-weight: 800;
+`;
+
+export const SmallText = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-weight: 200;
 `;
