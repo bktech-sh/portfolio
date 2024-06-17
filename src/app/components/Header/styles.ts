@@ -9,6 +9,7 @@ export const HeaderContainer = styled.div`
   padding-left: 5%;
   padding-right: 5%;
   justify-content: space-between;
+  align-items: center;
 `;
 
 export const Logo = styled.div`
@@ -48,4 +49,14 @@ export const SelectedMenu = styled.h5`
     background-color: ${WorkMateColors.green};
     border-radius: 2px;
   }
+`;
+
+export const ButtonTalk = styled.button`
+  background-color: ${WorkMateColors.blue};
+  border: none;
+  height: 52px;
+  width: 112px;
+  border-radius: 15px;
+  color: white;
+  font-size: 16px;
 `;
