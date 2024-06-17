@@ -5,3 +5,10 @@ export interface Service {
   title: string;
   description: string;
 }
+
+export interface Project {
+  imageProject: StaticImageData;
+  title: string;
+  description: string;
+  link: string;
+}

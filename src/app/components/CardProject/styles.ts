@@ -24,3 +24,9 @@ export const CardProjectContainer = styled.div`
     text-decoration: underline;
   }
 `;
+
+export const DescriptionProject = styled.div`
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+`;

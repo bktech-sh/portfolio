@@ -1,17 +1,23 @@
 import Image from "next/image";
-import { CardProjectContainer } from "./styles";
+import { CardProjectContainer, DescriptionProject } from "./styles";
 import kingImage from "@/app/assets/images/projects/king.png";
+import { Project } from "@/app/types";
 
-const CardProject = () => {
+interface Props {
+  project: Project;
+}
+
+const CardProject = ({ project }: Props) => {
   return (
     <CardProjectContainer>
-      <Image src={kingImage} width={120} alt="project" />
-      <p>
-        Through a dynamic partnership with King Expert, We craft landing pages
-        that captivate, engage, and drive results.
-      </p>
+      <DescriptionProject>
+        <Image src={project.imageProject} width={120} alt="project" />
+        <p>{project.description}</p>
+      </DescriptionProject>
 
-      <a>Visit Site &gt;</a>
+      <a href={project.link} target="_blank">
+        Visit Site &gt;
+      </a>
     </CardProjectContainer>
   );
 };
