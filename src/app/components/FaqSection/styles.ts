@@ -7,6 +7,7 @@ export const FAQSectionContainer = styled.div`
   margin-top: 100px;
   gap: 10%;
   justify-content: center;
+  margin-bottom: 100px;
 `;
 
 export const Left = styled.div`

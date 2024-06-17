@@ -13,6 +13,7 @@ import OurServices from "./components/OurServices";
 import ContactUs from "./components/ContactUs";
 import FAQSection from "./components/FaqSection";
 import Footer from "./components/Footer";
+import CopyRight from "./components/CopyRight";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -69,6 +70,7 @@ export default function Home() {
           <ContactUs />
           <FAQSection />
           <Footer />
+          <CopyRight />
         </>
       )}
     </AppContainer>
