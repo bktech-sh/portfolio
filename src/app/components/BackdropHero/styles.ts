@@ -8,6 +8,6 @@ export const BackdropRight = styled.div`
 
 export const BackdropLeft = styled.div`
   position: absolute;
-  top: 30vh;
+  bottom: 0;
   left: 0;
 `;

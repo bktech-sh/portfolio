@@ -8,6 +8,7 @@ import HeaderMobile from "./components/HeaderMobile";
 import HeroSection from "./components/HeroSection";
 import HeroSectionMobile from "./components/HeroSectionMobile";
 import { useRef } from "react";
+import CompanyPartner from "./components/CompanyPartner";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -59,6 +60,7 @@ export default function Home() {
         <>
           <Header />
           <HeroSection />
+          <CompanyPartner />
         </>
       )}
     </AppContainer>

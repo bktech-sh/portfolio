@@ -10,7 +10,7 @@ const BackdropHero = () => {
         <Image src={backdropRight} alt="backdrop-1" width={400} />
       </BackdropRight>
       <BackdropLeft>
-        <Image src={backdropLeft} alt="backdrop-2" width={250} />
+        <Image src={backdropLeft} alt="backdrop-2" width={200} />
       </BackdropLeft>
     </div>
   );
