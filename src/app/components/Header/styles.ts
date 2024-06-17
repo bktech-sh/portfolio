@@ -58,6 +58,7 @@ export const ButtonTalk = styled.button`
   width: 112px;
   border-radius: 15px;
   color: white;
+  z-index: 2;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
