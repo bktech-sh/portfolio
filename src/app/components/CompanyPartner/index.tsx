@@ -1,4 +1,5 @@
 import CardProject from "../CardProject";
+import CardProjectDisabled from "../CardProjectDisabled";
 import { CompanyPartnerContainer, ListCardProject, Title } from "./styles";
 
 const CompanyPartner = () => {
@@ -18,8 +19,9 @@ const CompanyPartner = () => {
 
       <ListCardProject>
         <CardProject />
-        <CardProject />
-        <CardProject />
+        <CardProjectDisabled />
+        <CardProjectDisabled />
+        <CardProjectDisabled />
       </ListCardProject>
     </CompanyPartnerContainer>
   );
