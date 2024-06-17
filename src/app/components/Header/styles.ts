@@ -52,11 +52,18 @@ export const SelectedMenu = styled.h5`
 `;
 
 export const ButtonTalk = styled.button`
-  background-color: ${BktechColors.blue};
+  background-color: #2652ee;
   border: none;
   height: 52px;
   width: 112px;
   border-radius: 15px;
   color: white;
   font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #1e45c0;
+    color: #ffffff;
+  }
 `;

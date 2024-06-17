@@ -1,3 +1,4 @@
+import { handleToWA } from "@/app/helpers/redirectWhatsapp";
 import BackdropHero from "../BackdropHero";
 import EllipseOpacity from "../EllipseOpacity";
 import { ButtonTalk } from "../Header/styles";
@@ -24,7 +25,7 @@ const HeroSection = () => {
         </SmallText>
       </Wording>
 
-      <ButtonTalk>Let's Talk</ButtonTalk>
+      <ButtonTalk onClick={handleToWA}>Let's Talk</ButtonTalk>
 
       <EllipseOpacity />
       <BackdropHero />

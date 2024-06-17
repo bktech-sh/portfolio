@@ -1,6 +1,7 @@
 import { ButtonTalk, HeaderContainer, Logo, Menu } from "./styles";
 import mainLogo from "../../assets/images/home/bktech-logo.jpg";
 import Image from "next/image";
+import { handleToWA } from "@/app/helpers/redirectWhatsapp";
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
         <p>Portfolio</p>
       </Menu>
 
-      <ButtonTalk>Let's Talk</ButtonTalk>
+      <ButtonTalk onClick={handleToWA}>Let's Talk</ButtonTalk>
     </HeaderContainer>
   );
 };

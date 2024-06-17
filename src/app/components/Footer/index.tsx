@@ -17,6 +17,7 @@ import twitterIcon from "@/app/assets/images/footer/twitter.png";
 import facebookIcon from "@/app/assets/images/footer/facebook.png";
 import backdropBottom from "@/app/assets/images/contact/backdrop-bottom.png";
 import backdropTop from "@/app/assets/images/contact/backdrop-top.png";
+import { handleToWA } from "@/app/helpers/redirectWhatsapp";
 
 const Footer = () => {
   return (
@@ -31,7 +32,7 @@ const Footer = () => {
           <Image src={facebookIcon} alt="facebook" width={30} />
         </SocialMedia>
 
-        <ButtonContactUs>Contact Us</ButtonContactUs>
+        <ButtonContactUs onClick={handleToWA}>Contact Us</ButtonContactUs>
       </ContactInfo>
 
       <PageLink>

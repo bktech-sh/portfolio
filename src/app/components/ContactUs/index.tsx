@@ -10,6 +10,7 @@ import {
 import backdropTop from "@/app/assets/images/contact/backdrop-top.png";
 import backdropBottom from "@/app/assets/images/contact/backdrop-bottom.png";
 import Image from "next/image";
+import { handleToWA } from "@/app/helpers/redirectWhatsapp";
 
 const ContactUs = () => {
   return (
@@ -20,7 +21,7 @@ const ContactUs = () => {
             Start Your Journey <br /> With Us
           </h4>
 
-          <ButtonTalk>Let's Talk</ButtonTalk>
+          <ButtonTalk onClick={handleToWA}>Let's Talk</ButtonTalk>
         </Left>
         <Right></Right>
 

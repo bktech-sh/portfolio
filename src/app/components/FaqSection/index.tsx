@@ -1,3 +1,4 @@
+import { handleToWA } from "@/app/helpers/redirectWhatsapp";
 import FAQItem from "../FAQItem";
 import { ButtonTalk } from "../Header/styles";
 import {
@@ -25,7 +26,7 @@ const FAQSection = () => {
 
         <EmailInput>
           <InputEmail placeholder="Enter Your Email" />
-          <ButtonTalk>Let's Talk</ButtonTalk>
+          <ButtonTalk onClick={handleToWA}>Let's Talk</ButtonTalk>
         </EmailInput>
       </Right>
     </FAQSectionContainer>
