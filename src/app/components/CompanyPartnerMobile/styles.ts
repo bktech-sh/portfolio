@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 export const CompanyPartnerMobileContainer = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   background-color: #3461ff0d;
   gap: 30px;
 `;
@@ -29,8 +30,7 @@ export const Title = styled.div`
 export const ListCardProject = styled.div`
   padding: 20px 30px;
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto;
   margin-bottom: 20px;
   gap: 20px;
-  background: border-box;
 `;
