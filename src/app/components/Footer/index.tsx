@@ -16,7 +16,6 @@ import instagramIcon from "@/app/assets/images/footer/instagram.png";
 import twitterIcon from "@/app/assets/images/footer/twitter.png";
 import facebookIcon from "@/app/assets/images/footer/facebook.png";
 import backdropBottom from "@/app/assets/images/contact/backdrop-bottom.png";
-import backdropTop from "@/app/assets/images/contact/backdrop-top.png";
 import { handleToWA } from "@/app/helpers/redirectWhatsapp";
 
 const Footer = () => {
@@ -27,9 +26,15 @@ const Footer = () => {
         <p>Jakarta, Indonesia</p>
 
         <SocialMedia>
-          <Image src={instagramIcon} alt="instagram" width={30} />
-          <Image src={twitterIcon} alt="twitter" width={30} />
-          <Image src={facebookIcon} alt="facebook" width={30} />
+          <a href="https://www.instagram.com/bktech.id/" target="_blank">
+            <Image src={instagramIcon} alt="instagram" width={30} />
+          </a>
+          <a>
+            <Image src={twitterIcon} alt="twitter" width={30} />
+          </a>
+          <a>
+            <Image src={facebookIcon} alt="facebook" width={30} />
+          </a>
         </SocialMedia>
 
         <ButtonContactUs onClick={handleToWA}>Contact Us</ButtonContactUs>
@@ -48,7 +53,12 @@ const Footer = () => {
       </PageLink>
 
       <BackdropFooter1>
-        <Image src={backdropBottom} alt="backdrop-1" width={300} />
+        <Image
+          src={backdropBottom}
+          alt="backdrop-1"
+          width={300}
+          priority={false}
+        />
       </BackdropFooter1>
       <BackdropFooter2>
         <Image src={backdropBottom} alt="backdrop-2" width={200} />

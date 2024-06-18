@@ -1,6 +1,21 @@
 import { BktechColors } from "@/app/constants/colors";
+import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
-import { getPositionOfLineAndCharacter } from "typescript";
+
+const breatheAnimation = keyframes`
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+`;
 
 export const ContactUsContainer = styled.div`
   display: flex;
@@ -34,6 +49,7 @@ export const Right = styled.div`
   height: 250px;
   border-radius: 100%;
   background-color: ${BktechColors.yellow};
+  animation: ${breatheAnimation} 4s ease-in-out infinite;
 `;
 
 export const BackdropContactLeft = styled.div`

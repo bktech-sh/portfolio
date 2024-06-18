@@ -24,6 +24,7 @@ export const ContactInfo = styled.div`
 export const SocialMedia = styled.div`
   display: flex;
   gap: 20px;
+  z-index: 1;
 `;
 
 export const PageLink = styled.div`

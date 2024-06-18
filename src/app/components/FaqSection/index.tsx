@@ -1,4 +1,3 @@
-import { handleToWA } from "@/app/helpers/redirectWhatsapp";
 import FAQItem from "../FAQItem";
 import { ButtonTalk } from "../Header/styles";
 import {
@@ -10,6 +9,16 @@ import {
 } from "./styles";
 
 const FAQSection = () => {
+  const sendEmail = () => {
+    const email = "bktech.id@gmail.com";
+    const subject = "Kerjasama bktech.id";
+
+    window.open(
+      `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}`,
+      "_blank"
+    );
+  };
+
   return (
     <FAQSectionContainer>
       <Left>
@@ -26,7 +35,7 @@ const FAQSection = () => {
 
         <EmailInput>
           <InputEmail placeholder="Enter Your Email" />
-          <ButtonTalk onClick={handleToWA}>Let's Talk</ButtonTalk>
+          <ButtonTalk onClick={sendEmail}>Let's Talk</ButtonTalk>
         </EmailInput>
       </Right>
     </FAQSectionContainer>

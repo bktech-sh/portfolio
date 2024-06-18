@@ -15,6 +15,6 @@ export const listProjects: Project[] = [
     description:
       "We are creating a web, Android, and iOS application to digitize the logbook system for medical students and doctors at Universitas Indonesia (FK UI).",
     link: "https://anestesi-ui.id/login",
-    title: "KingExpert",
+    title: "Logbook FK UI",
   },
 ];

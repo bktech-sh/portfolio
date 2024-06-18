@@ -2,7 +2,6 @@ import webImg from "@/app/assets/images/services/web.png";
 import consultantImg from "@/app/assets/images/services/consultant.png";
 import graphicImg from "@/app/assets/images/services/graphic.png";
 import uxImg from "@/app/assets/images/services/ui-ux.png";
-import { StaticImageData } from "next/image";
 import { Service } from "../types";
 
 export const listServices: Service[] = [

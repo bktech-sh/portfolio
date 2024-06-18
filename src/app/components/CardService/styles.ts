@@ -1,3 +1,4 @@
+import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
 export const CardServiceContainer = styled.div`
@@ -6,6 +7,7 @@ export const CardServiceContainer = styled.div`
   align-items: center;
   text-align: center;
   width: 350px;
+  height: 280px;
   padding: 32px;
   gap: 16px;
 
@@ -21,6 +23,14 @@ export const CardServiceContainer = styled.div`
     font-weight: 400;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
+  }
+
+  a {
+    color: ${BktechColors.blue};
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: 400;
+    cursor: pointer;
   }
 
   transition: box-shadow 0.3s ease-in-out;

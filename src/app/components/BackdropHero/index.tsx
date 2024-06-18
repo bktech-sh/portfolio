@@ -7,7 +7,12 @@ const BackdropHero = () => {
   return (
     <div>
       <BackdropRight>
-        <Image src={backdropRight} alt="backdrop-1" width={400} />
+        <Image
+          src={backdropRight}
+          alt="backdrop-1"
+          width={400}
+          priority={true}
+        />
       </BackdropRight>
       <BackdropLeft>
         <Image src={backdropLeft} alt="backdrop-2" width={200} />
