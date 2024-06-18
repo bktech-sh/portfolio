@@ -13,6 +13,7 @@ import FAQSection from "./components/FaqSection";
 import Footer from "./components/Footer";
 import CopyRight from "./components/CopyRight";
 import HeaderMobileV2 from "./components/HeaderMobileV2";
+import HeroSectionMobileV2 from "./components/HeroSectionMobileV2";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -26,7 +27,7 @@ export default function Home() {
       {isAndroid ? (
         <>
           <HeaderMobileV2 />
-          <HeroSectionMobile />
+          <HeroSectionMobileV2 />
         </>
       ) : (
         <>
