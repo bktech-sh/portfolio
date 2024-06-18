@@ -1,16 +1,13 @@
 import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
-export const CardProjectContainer = styled.div`
+export const CardProjectMobileContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 24px 32px;
-  max-width: 250px;
+  width: 350px;
   background-color: white;
   border-radius: 8px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: -4px -4px 40px 0px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   p {
     font-size: 16px;
@@ -23,12 +20,6 @@ export const CardProjectContainer = styled.div`
   a {
     color: ${BktechColors.blue};
     text-decoration: underline;
-  }
-
-  &:hover {
-    transform: scale(1.02) translateY(-5px);
-    box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.2),
-      -8px -8px 20px 0px rgba(0, 0, 0, 0.2);
   }
 `;
 

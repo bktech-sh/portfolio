@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 import CopyRight from "./components/CopyRight";
 import HeaderMobileV2 from "./components/HeaderMobileV2";
 import HeroSectionMobileV2 from "./components/HeroSectionMobileV2";
+import CompanyPartnerMobile from "./components/CompanyPartnerMobile";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -28,6 +29,7 @@ export default function Home() {
         <>
           <HeaderMobileV2 />
           <HeroSectionMobileV2 />
+          <CompanyPartnerMobile />
         </>
       ) : (
         <>
