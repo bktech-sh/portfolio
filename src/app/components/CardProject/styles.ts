@@ -1,5 +1,18 @@
 import { BktechColors } from "@/app/constants/colors";
+import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
+
+const floatAnimation = keyframes`
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+`;
 
 export const CardProjectContainer = styled.div`
   display: flex;
@@ -10,6 +23,7 @@ export const CardProjectContainer = styled.div`
   border-radius: 8px;
   box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.1);
   box-shadow: -4px -4px 40px 0px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   p {
     font-size: 16px;
@@ -22,6 +36,12 @@ export const CardProjectContainer = styled.div`
   a {
     color: ${BktechColors.blue};
     text-decoration: underline;
+  }
+
+  &:hover {
+    transform: scale(1.02) translateY(-5px);
+    box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.2),
+      -8px -8px 20px 0px rgba(0, 0, 0, 0.2);
   }
 `;
 
