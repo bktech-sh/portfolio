@@ -12,6 +12,8 @@ import HeaderMobileV2 from "../components/HeaderMobileV2";
 import BKtechExplainMobile from "./components/BKtechExplainMobile";
 import VisionMobile from "./components/VisionMobile";
 import OurMissionMobile from "./components/OurMissionMobile";
+import FooterMobile from "../components/FooterMobile";
+import FAQMobile from "./components/FAQMobile";
 
 const AboutPage = () => {
   const isAndroid = useIsAndroid();
@@ -23,6 +25,8 @@ const AboutPage = () => {
         <BKtechExplainMobile />
         <VisionMobile />
         <OurMissionMobile />
+        <FAQMobile />
+        <FooterMobile />
       </AppContainer>
     );
   }
