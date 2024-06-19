@@ -1,6 +1,7 @@
 import { listServices } from "@/app/constants/listServices";
-import CardService from "../CardService";
 import { OurServicesMobileContainer, ServiceList, Title } from "./styles";
+import CardServiceMobile from "../CardServiceMobile";
+import { useEffect, useRef } from "react";
 
 const OurServicesMobile = () => {
   return (
@@ -15,13 +16,9 @@ const OurServicesMobile = () => {
       </Title>
 
       <ServiceList>
-        <CardService service={listServices[0]} />
-        <CardService service={listServices[1]} />
-      </ServiceList>
-
-      <ServiceList>
-        <CardService service={listServices[2]} />
-        <CardService service={listServices[3]} />
+        {listServices.map((service) => (
+          <CardServiceMobile service={service} />
+        ))}
       </ServiceList>
     </OurServicesMobileContainer>
   );

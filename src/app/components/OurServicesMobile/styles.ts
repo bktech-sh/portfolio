@@ -3,13 +3,12 @@ import styled from "@emotion/styled";
 export const OurServicesMobileContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 50px;
 `;
 
 export const Title = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: 32px;
+  padding: 50px 50px 20px 50px;
 
   h4 {
     font-size: 32px;
@@ -27,7 +26,11 @@ export const Title = styled.div`
 
 export const ServiceList = styled.div`
   display: flex;
-  justify-content: center;
-  gap: 120px;
-  margin-bottom: 32px;
+  overflow-x: scroll;
+  margin-bottom: 20px;
+  gap: 20px;
+  background: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding: 20px;
 `;
