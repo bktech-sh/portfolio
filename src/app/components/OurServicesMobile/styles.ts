@@ -1,21 +1,20 @@
 import styled from "@emotion/styled";
 
-export const CompanyPartnerMobileContainer = styled.div`
+export const OurServicesMobileContainer = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: #3461ff0d;
-  gap: 30px;
+  padding: 50px;
 `;
 
 export const Title = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding: 50px 50px 10px 50px;
+  margin-bottom: 32px;
 
   h4 {
     font-size: 32px;
     font-weight: 200;
+    margin-bottom: 8px;
   }
 
   p {
@@ -26,13 +25,9 @@ export const Title = styled.div`
   }
 `;
 
-export const ListCardProject = styled.div`
-  padding: 20px 30px;
+export const ServiceList = styled.div`
   display: flex;
-  overflow-x: scroll;
-  margin-bottom: 20px;
-  gap: 20px;
-  background: border-box;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  justify-content: center;
+  gap: 120px;
+  margin-bottom: 32px;
 `;
