@@ -1,0 +1,73 @@
+import Image from "next/image";
+import {
+  BackdropFooter1,
+  BackdropFooter2,
+  BackdropFooter3,
+  ButtonContactUs,
+  Col1,
+  Col2,
+  ContactInfo,
+  FooterMobileContainer,
+  PageLink,
+  SocialMedia,
+} from "./styles";
+import bktechIcon from "@/app/assets/images/footer/bktech.png";
+import instagramIcon from "@/app/assets/images/footer/instagram.png";
+import twitterIcon from "@/app/assets/images/footer/twitter.png";
+import facebookIcon from "@/app/assets/images/footer/facebook.png";
+import backdropBottom from "@/app/assets/images/contact/backdrop-bottom.png";
+import { handleToWA } from "@/app/helpers/redirectWhatsapp";
+
+const FooterMobile = () => {
+  return (
+    <FooterMobileContainer>
+      <ContactInfo>
+        <Image src={bktechIcon} alt="bktech-icon" width={50} />
+        <p>Jakarta, Indonesia</p>
+
+        <SocialMedia>
+          <a href="https://www.instagram.com/bktech.id/" target="_blank">
+            <Image src={instagramIcon} alt="instagram" width={30} />
+          </a>
+          <a>
+            <Image src={twitterIcon} alt="twitter" width={30} />
+          </a>
+          <a>
+            <Image src={facebookIcon} alt="facebook" width={30} />
+          </a>
+        </SocialMedia>
+
+        <ButtonContactUs onClick={handleToWA}>Contact Us</ButtonContactUs>
+      </ContactInfo>
+
+      <PageLink>
+        <Col1>
+          <p>Work With Us</p>
+          <p>About Us</p>
+          <p>Our Work</p>
+        </Col1>
+        <Col2>
+          <p>FAQs</p>
+          <p>Report a Bug</p>
+        </Col2>
+      </PageLink>
+
+      <BackdropFooter1>
+        <Image
+          src={backdropBottom}
+          alt="backdrop-1"
+          width={150}
+          priority={false}
+        />
+      </BackdropFooter1>
+      <BackdropFooter2>
+        <Image src={backdropBottom} alt="backdrop-2" width={100} />
+      </BackdropFooter2>
+      <BackdropFooter3>
+        <Image src={backdropBottom} alt="backdrop-3" width={200} />
+      </BackdropFooter3>
+    </FooterMobileContainer>
+  );
+};
+
+export default FooterMobile;

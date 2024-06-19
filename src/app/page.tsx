@@ -18,6 +18,7 @@ import CompanyPartnerMobile from "./components/CompanyPartnerMobile";
 import OurServicesMobile from "./components/OurServicesMobile";
 import ContactUsMobile from "./components/ContactUsMobile";
 import FAQSectionMobile from "./components/FaqSectionMobile";
+import FooterMobile from "./components/FooterMobile";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -36,6 +37,7 @@ export default function Home() {
           <OurServicesMobile />
           <ContactUsMobile />
           <FAQSectionMobile />
+          <FooterMobile />
         </>
       ) : (
         <>
