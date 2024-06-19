@@ -25,6 +25,9 @@ const CompanyPartnerMobile = () => {
         {listProjects.map((project) => (
           <CardProjectMobile project={project} key={project.title} />
         ))}
+        {listProjects.map((project) => (
+          <CardProjectMobile project={project} key={project.title} />
+        ))}
       </ListCardProject>
     </CompanyPartnerMobileContainer>
   );

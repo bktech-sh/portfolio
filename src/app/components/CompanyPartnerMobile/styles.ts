@@ -29,7 +29,8 @@ export const Title = styled.div`
 export const ListCardProject = styled.div`
   padding: 20px 30px;
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
   margin-bottom: 20px;
   gap: 20px;
+  background: border-box;
 `;
