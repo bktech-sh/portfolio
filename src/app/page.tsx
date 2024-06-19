@@ -43,7 +43,7 @@ export default function Home() {
         </>
       ) : (
         <>
-          <Header />
+          <Header activeTab="home" />
           <HeroSection />
           <CompanyPartner />
           <OurServices />

@@ -32,6 +32,12 @@ export const Menu = styled.div`
       cursor: pointer;
     }
   }
+
+  p {
+    :hover {
+      cursor: pointer;
+    }
+  }
 `;
 
 export const SelectedMenu = styled.h5`
