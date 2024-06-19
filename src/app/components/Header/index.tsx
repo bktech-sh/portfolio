@@ -18,7 +18,7 @@ const Header = ({ activeTab }: Props) => {
       </Logo>
       <Menu>
         <p onClick={() => router.push("/about")}>About Us</p>
-        <p>Portfolio</p>
+        <p onClick={() => router.push("/portfolio")}>Portfolio</p>
       </Menu>
 
       <ButtonTalk onClick={handleToWA}>Let's Talk</ButtonTalk>

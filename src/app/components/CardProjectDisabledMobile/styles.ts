@@ -31,6 +31,7 @@ export const Overlay = styled.div`
   p {
     margin-top: 16px;
     margin-bottom: 32px;
+    width: 400px;
   }
 
   a {

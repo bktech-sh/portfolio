@@ -1,16 +1,14 @@
 import { BktechColors } from "@/app/constants/colors";
 import styled from "@emotion/styled";
 
-export const HeaderContainer = styled.div`
+export const HeaderMobileV2Container = styled.div`
   display: flex;
   background-color: ${BktechColors.white};
   color: ${BktechColors.black};
-  z-index: 1;
-  height: 85px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 30px;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 `;
 
 export const Logo = styled.div`
@@ -29,12 +27,6 @@ export const Menu = styled.div`
   gap: 40px;
 
   h5 {
-    :hover {
-      cursor: pointer;
-    }
-  }
-
-  p {
     :hover {
       cursor: pointer;
     }

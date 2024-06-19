@@ -7,6 +7,8 @@ export const CardProjectMobileContainer = styled.div`
   padding: 24px 32px;
   background-color: white;
   border-radius: 8px;
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.1),
+    -4px -4px 40px 0px rgba(0, 0, 0, 0.1);
 
   p {
     font-size: 16px;
