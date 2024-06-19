@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 
 export const HeaderMobileV2Container = styled.div`
   display: flex;
-  background-color: ${BktechColors.white};
+  background-color: transparent;
   color: ${BktechColors.black};
   padding: 30px;
   justify-content: space-between;

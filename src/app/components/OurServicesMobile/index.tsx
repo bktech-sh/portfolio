@@ -1,7 +1,6 @@
 import { listServices } from "@/app/constants/listServices";
 import { OurServicesMobileContainer, ServiceList, Title } from "./styles";
 import CardServiceMobile from "../CardServiceMobile";
-import { useEffect, useRef } from "react";
 
 const OurServicesMobile = () => {
   return (
