@@ -3,7 +3,11 @@ import mainLogo from "../../assets/images/home/bktech-logo.jpg";
 import Image from "next/image";
 import { handleToWA } from "@/app/helpers/redirectWhatsapp";
 
-const Header = () => {
+interface Props {
+  activeTab: "about" | "portofolio";
+}
+
+const Header = ({ activeTab }: Props) => {
   return (
     <HeaderContainer>
       <Logo>

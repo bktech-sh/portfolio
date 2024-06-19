@@ -18,6 +18,7 @@ export const Question = styled.div`
 
 export const Answer = styled.div`
   display: flex;
+  text-align: start;
   padding: 0 0 0 20px;
   transition: "all .2s";
 `;
