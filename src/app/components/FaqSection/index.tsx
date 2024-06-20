@@ -1,5 +1,6 @@
 import FAQItem from "../FAQItem";
 import { ButtonTalk } from "../Header/styles";
+import { listFAQ } from "./listQuestion";
 import {
   EmailInput,
   FAQSectionContainer,
@@ -22,12 +23,9 @@ const FAQSection = () => {
   return (
     <FAQSectionContainer>
       <Left>
-        <FAQItem title="What services does BKTech Provide?" answer="asd" />
-        <FAQItem
-          title="Do BKTech offer cost estimates for projects? "
-          answer="qwe"
-        />
-        <FAQItem title="How Experienced BKTech Team?" answer="iop" />
+        {listFAQ.map((faq) => (
+          <FAQItem answer={faq.answer} title={faq.question} key={faq.answer} />
+        ))}
       </Left>
 
       <Right>

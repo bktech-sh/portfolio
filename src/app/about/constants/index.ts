@@ -11,18 +11,22 @@ export const listFAQ: FAQ[] = [
   },
   {
     question: "How experienced is the team at BKTech?",
-    answer: "asdasd",
+    answer:
+      "The BKTech team is composed of highly experienced professionals with diverse expertise in various fields of technology. Our team members have been experienced and specialized in their respective fields. We have successfully completed a wide range of projects for clients across different sectors, showcasing our ability to deliver high-quality solutions. We are committed to continuous learning and staying updated with the latest industry trends and technologies to provide the best solutions to our clients.",
   },
   {
     question: "What industries does BKTech serve?",
-    answer: "asdasd",
+    answer:
+      "We serve several industries, including healthcare, finance, retail, education, manufacturing, telecommunications, and government, etc.",
   },
   {
     question: "How does the software development process work at BKTech?",
-    answer: "asdads",
+    answer:
+      "Our process includes an initial consultation, planning, design, development, testing, deployment, and ongoing maintenance to ensure effective and up-to-date software.",
   },
   {
     question: "What sets BKTech apart from other software houses?",
-    answer: "opio",
+    answer:
+      "BKTech stands out with a client-centric approach, experienced team, high-quality standards, innovative solutions, transparent communication, and comprehensive services from consulting to maintenance.",
   },
 ];
