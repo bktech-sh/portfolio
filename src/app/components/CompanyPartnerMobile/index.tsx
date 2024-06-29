@@ -11,7 +11,7 @@ const CompanyPartnerMobile = () => {
     <CompanyPartnerMobileContainer>
       <Title>
         <h4>
-          Companies we <br /> Work with
+         Our Engineers <br /> Work 
         </h4>
         <p>
           At BKTech, we take pride in collaborating with a diverse array of
