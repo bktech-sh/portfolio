@@ -2,7 +2,6 @@ import { Service } from "@/app/types";
 import { CardServiceContainer } from "./styles";
 import Image from "next/image";
 import { useState } from "react";
-import { handleToWA } from "@/app/helpers/redirectWhatsapp";
 
 interface Props {
   service: Service;
@@ -19,6 +18,12 @@ const CardService = ({ service }: Props) => {
     setShowLetsTalk(false);
   };
 
+  const handleClick = () => {
+    if (service.link) {
+      window.open(service.link, "_blank");
+    }
+  };
+
   return (
     <CardServiceContainer
       onMouseEnter={handleShowLetsTalk}
@@ -29,7 +34,7 @@ const CardService = ({ service }: Props) => {
       <h4>{service.title}</h4>
       <p>{service.description}</p>
 
-      {showLetsTalk && <a onClick={handleToWA}>Let's Talk</a>}
+      {showLetsTalk && <a onClick={handleClick}>Portfolio</a>}
     </CardServiceContainer>
   );
 };

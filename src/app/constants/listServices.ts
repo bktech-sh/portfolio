@@ -10,23 +10,27 @@ export const listServices: Service[] = [
     title: "Website Development",
     description:
       "Unlock your digital vision, Experience top-notch website development. Your brand's success starts here. ",
+      link: "",
   },
   {
     imageService: uxImg,
     title: "UI UX Consultant",
     description:
       "Unlock your digital vision, Experience top-notch website development. Your brand's success starts here. ",
+      link: ""
   },
   {
     imageService: consultantImg,
     title: "IT Consulting",
     description:
       "Empower your business with strategic IT consulting. optimize technology for growth and efficiency!",
+      link: ""
   },
   {
     imageService: graphicImg,
     title: "Graphic Design",
     description:
       "Unleash creativity with our graphic design expertise. Together, we'll bring your visions to life visually!",
+      link: "https://drive.google.com/file/d/1J-NhcxKhl3lAjdezeC9Xo-DxOGHrRoX0/view?usp=sharing"
   },
 ];
